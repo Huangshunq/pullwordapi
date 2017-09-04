@@ -1,0 +1,25 @@
+{
+  "name": "pullwordapi",
+  "version": "0.0.1-rc.1",
+  "description": "A NodeJS package for pullword. It uses ES6.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node ./test"
+  },
+  "repository":{ 
+    "type" : "git",
+     "url" : "https://github.com/Huangshunq/pullwordapi.git"
+  },
+  "keywords": [
+    "pullword",
+    "es6",
+    "promise"
+  ],
+  "author": "Huangshunq",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
+  }
+}
